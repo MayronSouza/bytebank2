@@ -18,7 +18,7 @@ class Dashboard extends StatelessWidget {
           ),
           Consumer<Saldo>(builder: (context, saldo, child) {
             return RaisedButton(
-              child: Text('Adiciona'),
+              child: Text('Receber depósito'),
               onPressed: () {
                 saldo.add(10.0);
               },
